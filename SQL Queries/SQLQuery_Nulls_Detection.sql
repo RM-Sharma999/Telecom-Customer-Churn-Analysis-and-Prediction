@@ -1,0 +1,37 @@
+USE db_churn
+GO
+
+Select
+Sum(Case When Customer_ID Is Null Then 1 Else 0 End) as Customer_ID_Null_Count,
+Sum(Case When Gender Is Null Then 1 Else 0 End) as Gender_Null_Count,
+Sum(Case When Age Is Null Then 1 Else 0 End) as Age_Null_Count,
+Sum(Case When Married Is Null Then 1 Else 0 End) as Married_Null_Count,
+Sum(Case When State Is Null Then 1 Else 0 End) as State_Null_Count,
+Sum(Case When Number_of_Referrals Is Null Then 1 Else 0 End) as Number_of_Referrals_Null_Count,
+Sum(Case When Tenure_in_Months Is Null Then 1 Else 0 End) as Tenure_in_Months_Null_Count,
+Sum(Case When Value_Deal Is Null Then 1 Else 0 End) as Value_Deal_Null_Count,
+Sum(Case When Phone_Service Is Null Then 1 Else 0 End) as Phone_Service_Null_Count,
+Sum(Case When Multiple_Lines Is Null Then 1 Else 0 End) as Multiple_Lines_Null_Count,
+Sum(Case When Internet_Service Is Null Then 1 Else 0 End) as Internet_Service_Null_Count,
+Sum(Case When Internet_Type Is Null Then 1 Else 0 End) as Internet_Type_Null_Count,
+Sum(Case When Online_Security Is Null Then 1 Else 0 End) as Online_Security_Null_Count,
+Sum(Case When Online_Backup Is Null Then 1 Else 0 End) as Online_Backup_Null_Count,
+Sum(Case When Device_Protection_Plan Is Null Then 1 Else 0 End) as Device_Protection_Plan_Null_Count,
+Sum(Case When Premium_Support Is Null Then 1 Else 0 End) as Premium_Support_Null_Count,
+Sum(Case When Streaming_TV Is Null Then 1 Else 0 End) as Streaming_TV_Null_Count,
+Sum(Case When Streaming_Movies Is Null Then 1 Else 0 End) as Streaming_Movies_Null_Count,
+Sum(Case When Streaming_Music Is Null Then 1 Else 0 End) as Streaming_Music_Null_Count,
+Sum(Case When Unlimited_Data Is Null Then 1 Else 0 End) as Unlimited_Data_Null_Count,
+Sum(Case When Contract Is Null Then 1 Else 0 End) as Contract_Null_Count,
+Sum(Case When Paperless_Billing Is Null Then 1 Else 0 End) as Paperless_Billing_Null_Count,
+Sum(Case When Payment_Method Is Null Then 1 Else 0 End) as Payment_Method_Null_Count,
+Sum(Case When Monthly_Charge Is Null Then 1 Else 0 End) as Monthly_Charge_Null_Count,
+Sum(Case When Total_Charges Is Null Then 1 Else 0 End) as Total_Charges_Null_Count,
+Sum(Case When Total_Refunds Is Null Then 1 Else 0 End) as Total_Refunds_Null_Count,
+Sum(Case When Total_Extra_Data_Charges Is Null Then 1 Else 0 End) as Total_Extra_Data_Charges_Null_Count,
+Sum(Case When Total_Long_Distance_Charges Is Null Then 1 Else 0 End) as Total_Long_Distance_Charges_Null_Count,
+Sum(Case When Total_Revenue Is Null Then 1 Else 0 End) as Total_Revenue_Null_Count,
+Sum(Case When Customer_Status Is Null Then 1 Else 0 End) as Customer_Status_Null_Count,
+Sum(Case When Churn_Category Is Null Then 1 Else 0 End) as Churn_Category_Null_Count,
+Sum(Case When Churn_Reason Is Null Then 1 Else 0 End) as Churn_Reason_Null_Count
+from stg_Churn
