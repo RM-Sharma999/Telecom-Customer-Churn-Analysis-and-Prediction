@@ -27,5 +27,6 @@ The dataset contains customer-level information from a telecom or subscription-b
 
 ## Insights  
 
-
+### 1. Churn by Contract Type
+Shows how churn varies across **Month-to-Month, One-Year, and Two-Year contracts**.
 
