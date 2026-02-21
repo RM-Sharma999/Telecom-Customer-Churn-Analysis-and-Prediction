@@ -30,11 +30,17 @@ The dataset contains customer-level information from a telecom or subscription-b
 ### 1. Churn by Contract Type
 - Shows how churn varies across **Month-to-Month, One-Year, and Two-Year contracts**.
 
+<img width="589" height="291" alt="image" src="https://github.com/user-attachments/assets/d5cda474-6611-4a94-8cbb-505587bb2338" />
+
 ### 2. Churn by Internet Type
 - Highlights churn distribution among different **internet service categories**.
 
+<img width="533" height="213" alt="image" src="https://github.com/user-attachments/assets/da76be72-01b6-43e6-9aca-a5246cd06b06" />
+
 ### 3. Churn by State
 - Displays **regional variation** in customer churn.
+
+<img width="472" height="219" alt="image" src="https://github.com/user-attachments/assets/69b42479-888f-44ee-8605-7ef93ae7be65" />
 
 ### 4. Predicted Churn by Payment Method
 - Highlights which **payment methods** have a higher concentration of customers likely to churn.
