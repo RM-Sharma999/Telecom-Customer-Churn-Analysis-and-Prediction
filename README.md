@@ -45,8 +45,12 @@ The dataset contains customer-level information from a telecom or subscription-b
 ### 4. Predicted Churn by Payment Method
 - Highlights which **payment methods** have a higher concentration of customers likely to churn.
 
+<img width="461" height="276" alt="image" src="https://github.com/user-attachments/assets/8a91a6ea-9413-47e7-b9b5-a6e0bcbb3c2f" />
+
 ### 5. High-Risk Customer Table
 - Lists **high-risk customers** along with revenue and billing details for targeted retention strategies.
+
+<img width="564" height="657" alt="image" src="https://github.com/user-attachments/assets/f53cec2b-a27f-4290-a335-220b50d21f74" />
 
 ---
 
