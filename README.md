@@ -38,7 +38,7 @@ The dataset contains customer-level information from a telecom or subscription-b
 <img width="533" height="213" alt="image" src="https://github.com/user-attachments/assets/da76be72-01b6-43e6-9aca-a5246cd06b06" />
 
 ### 3. Churn Rate by State
-- Displays **regional variation** in customer churn.
+- Displays **regional variation** in churn rate.
 
 <img width="472" height="219" alt="image" src="https://github.com/user-attachments/assets/69b42479-888f-44ee-8605-7ef93ae7be65" />
 
