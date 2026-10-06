@@ -54,6 +54,12 @@ The dataset contains customer-level information from a telecom or subscription-b
 
 ---
 
+## Prediction
+
+A basic Random Forest classifier was trained on the dataset to flag customers likely to churn, complementing the dashboard's descriptive insights with a simple predictive signal.
+
+---
+
 ## Conclusion  
 
 This project demonstrates how customer data can be transformed into **meaningful insights** through interactive dashboards. By analyzing **churn patterns** and identifying **high-risk customers**, the solution helps businesses understand the main factors influencing **customer behavior** and take informed action. The dashboard supports **data-driven decision-making** to improve customer retention and reduce overall churn impact.
