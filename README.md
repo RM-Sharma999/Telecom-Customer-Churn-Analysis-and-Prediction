@@ -56,7 +56,7 @@ The dataset contains customer-level information from a telecom or subscription-b
 
 ## Prediction
 
-A basic **Random Forest classifier** was trained on the customer dataset to flag individuals likely to **churn**, complementing the dashboard's descriptive insights with a simple predictive signal that can support targeted retention efforts.
+A basic **Random Forest classifier** was trained on the dataset to flag individuals likely to **churn**, complementing the dashboard's descriptive insights with a predictive signal that can support targeted retention efforts.
 
 <img width="537" height="533" alt="image" src="https://github.com/user-attachments/assets/1734172c-e883-4161-9621-1326b587734b" />
 
